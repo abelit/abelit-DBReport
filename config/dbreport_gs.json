@@ -1,0 +1,57 @@
+{
+	"ORGANIZATION_NAME": "贵州省工商行政管理局",
+	"ORGANIZATION_SHORTNAME": "贵州省工商局",
+	"ORGANIZATION_OBJECT": "数据库",
+	"DATE_DISPLAY": "",
+	"REPORT_INTERVAL": ["8:30","11:30","13:30","16:30","17:30"],
+	"AUTHOR": [["陈英", "贵州维讯信息技术有限公司", "项目负责人", "ychenid@live.com", "15285649896"],
+				["罗超", "贵州维讯信息技术有限公司", "部门经理", "cluo@vision-it.com.cn", "18798091931"],
+				["叶金森", "贵州维讯信息技术有限公司", "系统工程师", "jsye@vision-it.com.cn", "15761634231"]],
+	"DATABASE": {
+		"db001": {
+			"dbtitle": "查询库节点1",
+			"dbname": "prod",
+			"username": "sys",
+			"password": "",
+			"mode": "sysdba",
+			"host": "172.28.1.221",
+			"port": 1521,
+			"service_name": "prod",
+			"instance_name": "prod1",
+			"dbversion": "11.2.0.3",
+			"host_username": "oracle",
+			"host_password": "",
+			"host_port": 22
+		},
+		"db002": {
+			"dbtitle": "查询库节点2",
+			"dbname": "prod",
+			"username": "sys",
+			"password": "",
+			"mode": "sysdba",
+			"host": "172.28.1.222",
+			"port": 1521,
+			"service_name": "prod",
+			"instance_name": "prod2",
+			"dbversion": "11.2.0.3",
+			"host_username": "oracle",
+			"host_password": "",
+			"host_port": 22
+		},
+		"db003": {
+			"dbtitle": "协同监管库",
+			"dbname": "orcl",
+			"username": "sys",
+			"password": "",
+			"mode": "sysdba",
+			"host": "172.230.0.40",
+			"port": 1521,
+			"service_name": "orcl",
+			"instance_name": "orcl",
+			"dbversion": "12.1.0.2",
+			"host_username": "oracle",
+			"host_password": "",
+			"host_port": 22
+		}
+	}
+}
